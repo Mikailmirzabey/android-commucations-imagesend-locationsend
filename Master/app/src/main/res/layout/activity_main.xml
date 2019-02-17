@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mobilcontrol.dev.gpsmaster.MainActivity"
+    android:background="@drawable/aanaekran">
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/images"
+        android:id="@+id/gpsgoster"
+        android:layout_alignTop="@+id/resimgoster"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/camera"
+        android:layout_marginBottom="82dp"
+        android:id="@+id/resimgoster"
+        android:layout_width="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>
